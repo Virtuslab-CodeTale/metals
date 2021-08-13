@@ -1,0 +1,35 @@
+[
+  {
+    "id" : "90276692-c31b-408c-9091-75587b3ca59b",
+    "prId" : 3006,
+    "prUrl" : "https://github.com/scalameta/metals/pull/3006#pullrequestreview-726435803",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "cf28c55c-8ba8-4ad2-8536-c40d3c34de58",
+        "parentId" : null,
+        "authorId" : "f252b48f-54a9-478d-8bbb-85f01e5c28e7",
+        "body" : "Are you able to just use `SbtBuildTool` and run it?",
+        "createdAt" : "2021-08-06T18:15:47Z",
+        "updatedAt" : "2021-08-06T18:19:13Z",
+        "lastEditedBy" : "f252b48f-54a9-478d-8bbb-85f01e5c28e7",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "19fd5fff-a306-49e1-a473-8de897e5dd07",
+        "parentId" : "cf28c55c-8ba8-4ad2-8536-c40d3c34de58",
+        "authorId" : "89d4c272-269b-47df-8914-7780da761796",
+        "body" : "That's tested in `SbtServerSuite.generate`. I am not using `SbtBuildTool` here to save some time by not running `sbt bspConfig`.",
+        "createdAt" : "2021-08-10T13:27:38Z",
+        "updatedAt" : "2021-08-10T13:27:39Z",
+        "lastEditedBy" : "89d4c272-269b-47df-8914-7780da761796",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "c2f98698b594ea397cdcee8b6d2adc398801fd8a",
+    "line" : 112,
+    "diffHunk" : "@@ -1,1 +110,114 @@    if (!sbtJson.isFile) {\n      // we create bsp/sbt.json file manually because `sbt bspConfig` takes too long\n      val sbtLaunchJar =\n        BuildTool.copyFromResource(bspFolder.toNIO, \"sbt-launch.jar\")\n      val argv = List("
+  }
+]
