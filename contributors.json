@@ -165,6 +165,21 @@
     "updatedAt" : "2021-07-22T15:15:50.374512Z"
   },
   {
+    "id" : "92aa69e2-abd2-4b24-8aeb-8d083b6a4350",
+    "remoteIds" : [
+      {
+        "id" : "KacperFKorban",
+        "url" : "github.com",
+        "provider" : "GitHub"
+      }
+    ],
+    "name" : "Kacper Korban",
+    "avatarUrl" : "https://avatars.githubusercontent.com/u/39772805?u=4f2003c9e1fd259284513b56d89c12bbe6f9d693&v=4",
+    "altName" : "KacperFKorban",
+    "email" : null,
+    "updatedAt" : "2021-08-23T13:56:42.8646061+02:00"
+  },
+  {
     "id" : "96e62a2a-8b56-4d59-ac92-6a11f176a897",
     "remoteIds" : [
       {
