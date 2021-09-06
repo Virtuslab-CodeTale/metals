@@ -780,6 +780,21 @@
     "updatedAt" : "2021-07-22T17:44:11.02849+02:00"
   },
   {
+    "id" : "fb07fad4-e1b6-4afc-8d73-fe43ee9082b8",
+    "remoteIds" : [
+      {
+        "id" : "oschrenk",
+        "url" : "github.com",
+        "provider" : "GitHub"
+      }
+    ],
+    "name" : "Oliver Schrenk",
+    "avatarUrl" : "https://avatars.githubusercontent.com/u/52898?u=162b7f68ddc78f646cc6d72831172e6195b856f8&v=4",
+    "altName" : "oschrenk",
+    "email" : null,
+    "updatedAt" : "2021-09-06T09:49:05.953801+02:00"
+  },
+  {
     "id" : "fb0acb6c-69b7-4044-b350-ac60b05db3f2",
     "remoteIds" : [
       {
